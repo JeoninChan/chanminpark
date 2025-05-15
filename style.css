@@ -124,3 +124,41 @@ body {
     bottom: 50px;
   }
   
+  .portfolio-item {
+    text-align: left;
+    margin: 2.5em 0;
+    border-left: 4px solid #1f75fe;
+    background-color: #1b2d48;
+    padding: 1.5em 1.5em;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  .portfolio-item:hover {
+    transform: scale(1.02);
+    background-color: #22395d;
+  }
+  .portfolio-item h3 {
+    color: #79a9f5;
+    margin-bottom: 0.8em;
+  }
+  .portfolio-item ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  .portfolio-item li {
+    margin-bottom: 0.5em;
+  }
+  .portfolio-item a {
+    color: #1f75fe;
+    text-decoration: underline;
+  }
+  .portfolio-item a:hover {
+    color: #ffffff;
+  }
+  .intro-desc {
+    margin-bottom: 2em;
+    font-size: 1.05rem;
+    line-height: 1.7em;
+    color: #dcdcdc;
+  }
+  
